@@ -16,6 +16,9 @@ const Compteurs = () => {
         +
       </button>
 
+
+      condition ? resultatSiOui : resultatSiNon
+
       {compteur > 0 ? (
         <button
           onClick={() => {
